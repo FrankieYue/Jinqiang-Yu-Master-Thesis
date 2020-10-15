@@ -1,0 +1,95 @@
+1. Perfect complete MaxSAT model (list)
+	python DLsolve.py --maxsat -n 1 <trainingfilename>
+
+2. Perfect Separated MaxSAT model (list):
+	python DLsolve.py --maxsat --sep -n 1 <trainingfilename>
+
+3. Perfect Separated MaxSAT model (list, fewer item class first):
+	python DLsolve.py --maxsat --sep -n 1 -o maj -a asc <trainingfilename>
+
+4. Perfect Separated MaxSAT model (list, more item class first):
+	python DLsolve.py --maxsat --sep -n 1 -o maj -a desc <trainingfilename>
+
+5. Perfect Separated MaxSAT model (hybrid):
+	python DLsolve.py --maxsat --sep -n 1 -m hybrid <trainingfilename>
+
+6. Sparse complete MaxSAT model (list)
+	python DLsolve.py --sparse --maxsat -n 1 <trainingfilename>
+
+7. Sparse Separated MaxSAT model (list):
+	python DLsolve.py --sparse --maxsat --sep -n 1 <trainingfilename>
+
+8. Sparse Separated MaxSAT model (list, fewer item class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -o maj -a asc <trainingfilename>
+
+9. Sparse Separated MaxSAT model (list, more item class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -o maj -a desc <trainingfilename>
+
+10. Sparse Separated MaxSAT model (list, lower accuracy class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -o accuy -a asc <trainingfilename>
+
+11. Sparse Separated MaxSAT model (list, higher accuracy class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -o accuy -a desc <trainingfilename>
+
+12. Sparse Separated MaxSAT model (list, lower cost class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -o cost -a asc <trainingfilename>
+
+13. Sparse Separated MaxSAT model (list, higher cost class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -o cost -a desc <trainingfilename>
+
+14. Sparse Separated MaxSAT model (hybrid):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -m hybrid <trainingfilename>
+
+15. Sparse Separated MaxSAT model (list, lambda = l 0.05):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.05 <trainingfilename>
+
+16. Sparse Separated MaxSAT model (list, lambda = l 0.05, fewer item class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.05  -o maj -a asc <trainingfilename>
+
+17. Sparse Separated MaxSAT model (list, lambda = l 0.05, more item class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1  -l 0.05 -o maj -a desc <trainingfilename>
+
+18. Sparse Separated MaxSAT model (list, lambda = l 0.05, lower accuracy class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1  -l 0.05 -o accuy -a asc <trainingfilename>
+
+19. Sparse Separated MaxSAT model (list, lambda = l 0.05, higher accuracy class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.05  -o accuy -a desc <trainingfilename>
+
+20. Sparse Separated MaxSAT model (list, lambda = l 0.05, lower cost class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1  -l 0.05 -o cost -a asc <trainingfilename>
+
+21. Sparse Separated MaxSAT model (list, lambda = l 0.05, higher cost class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1  -l 0.05 -o cost -a desc <trainingfilename>
+
+22. Sparse Separated MaxSAT model (hybrid, lambda = l 0.05):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.05 -m hybrid <trainingfilename>
+
+23. Sparse Separated MaxSAT model (list, lam=0.5):
+	python DLsolve.py --sparse --maxsat --sep -n 1  -l 0.5 <trainingfilename>
+
+24. Sparse Separated MaxSAT model (list, lam=0.5, fewer item class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -o maj -a asc <trainingfilename>
+
+25. Sparse Separated MaxSAT model (list, lam=0.5, more item class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -o maj -a desc <trainingfilename>
+
+26. Sparse Separated MaxSAT model (list, lam=0.5, lower accuracy class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -o accuy -a asc <trainingfilename>
+
+27. Sparse Separated MaxSAT model (list, lam=0.5, higher accuracy class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -o accuy -a desc <trainingfilename>
+
+28. Sparse Separated MaxSAT model (list, lam=0.5, lower cost class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -o cost -a asc <trainingfilename>
+
+29. Sparse Separated MaxSAT model (list, lam=0.5, higher cost class first):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -o cost -a desc <trainingfilename>
+
+30. Sparse Separated MaxSAT model (hybrid, lam=0.5):
+	python DLsolve.py --sparse --maxsat --sep -n 1 -l 0.5 -m hybrid <trainingfilename>
+
+31. Sparse complete MaxSAT model (list, lam = 0.05)
+	python DLsolve.py --sparse --maxsat -n 1  -l 0.05 <trainingfilename>
+
+32. Sparse complete MaxSAT model (list, lam = 0.5)
+	python DLsolve.py --sparse --maxsat -n 1  -l 0.5 <trainingfilename>
